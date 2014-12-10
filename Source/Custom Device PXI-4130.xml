@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML Studio - FREE Community Edition 7.0.5.906 (http://www.liquid-technologies.com) -->
+<CustomDevice xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Custom Device.xsd">
+  <AddMenu>
+    <eng>National Instruments::PXI-4130</eng>
+    <loc>National Instruments::PXI-4130</loc>
+  </AddMenu>
+  <Version>1.0</Version>
+  <Type>Asynchronous</Type>
+  <MaxOccurrence>2474</MaxOccurrence>
+  <MainPageGUID>8F9934F6-DA39-4A97-511A-585E9D78BAA2</MainPageGUID>
+  <InitializationVI>
+    <Type>Action</Type>
+    <Item2Launch>
+      <Type>To App Data Dir</Type>
+		<Path>Custom Devices\PXI-4130\PXI-4130 Configuration.llb\PXI-4130 Initialization VI.vi</Path>
+    </Item2Launch>
+  </InitializationVI>
+  <CustomDeviceVI>
+    <Source>
+      <Type>To App Data Dir</Type>
+		<Path>Custom Devices\PXI-4130\PXI-4130 Engine.llb\PXI-4130 RT Driver VI.vi</Path>
+    </Source>
+    <RealTimeSystemDestination>c:\ni-rt\VeriStand\Custom Devices\PXI-4130\PXI-4130 Engine.llb\PXI-4130 RT Driver VI.vi</RealTimeSystemDestination>
+  </CustomDeviceVI>
+  <Dependencies />
+  <Pages>
+    <Page>
+      <Name>
+        <eng>PXI-4130</eng>
+        <loc>PXI-4130</loc>
+      </Name>
+      <GUID>8F9934F6-DA39-4A97-511A-585E9D78BAA2</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\PXI-4130\PXI-4130 Configuration.llb\PXI-4130 Main Page.vi</Path>
+      </Item2Launch>
+    </Page>
+	<Page>
+      <Name>
+        <eng>Channel Selection Page</eng>
+        <loc>Channel Selection Page</loc>
+      </Name>
+      <GUID>8F9934F6-DA39-4A97-511A-585E9D78BBC4</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga category.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\PXI-4130\PXI-4130 Configuration.llb\PXI-4130 Channel Section Page.vi</Path>
+      </Item2Launch>
+    </Page>
+    <Page>
+      <Name>
+        <eng>Channel Page</eng>
+        <loc>Channel Page</loc>
+      </Name>
+      <GUID>8F9934F6-DA39-4A97-511A-585E9D78BBD8</GUID>
+      <Glyph>
+			<Type>To App Data Dir</Type>
+			<Path>System Explorer\Glyphs\default fpga channel.png</Path>
+		</Glyph>
+      <Item2Launch>
+        <Type>To App Data Dir</Type>
+		<Path>Custom Devices\PXI-4130\PXI-4130 Configuration.llb\PXI-4130 Input Channel Page.vi</Path>
+      </Item2Launch>
+    </Page>
+  </Pages>
+  <CustomXML>
+    <Dummy></Dummy>
+  </CustomXML>
+</CustomDevice>
