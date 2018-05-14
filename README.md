@@ -1,3 +1,5 @@
+**NOTICE: This repository has been archived, and will no longer be maintained or accept pull requests.**
+
 ## PXI-4130 Custom Device ##
 
 **PXI-4130 Custom Device** integrates the PXI-4130 Source Measurement Unit (SMU) into NI VeriStand.
